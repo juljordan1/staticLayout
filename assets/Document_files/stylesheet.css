@@ -1,0 +1,187 @@
+/*General Setup*/
+
+html {
+  margin: 0;
+  padding-top: 20px;
+
+}
+
+body {
+  background-color: #020405;
+  font-family: Catamaran;
+  /* color: #333; */
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.heroImage {
+  background-image: url(./assets/gradient-violet-bg.jpg);
+  position: center;
+  width: 100vw;
+  height: auto;
+  min-height: 700px;
+  margin-top: -2%;
+  margin-left: -1%;
+}
+
+.banner{
+  display:flex;
+  justify-content: space-between;
+  padding: 30px 40px 0px 110px; 
+  border:50px ;
+  word-spacing: 50px;
+  right: 10px;
+  left: 50px;
+
+
+ 
+  
+}
+
+p {
+  margin: 0;
+  padding: 10px ;
+  font-family:'Roboto', sans-serif;
+
+}
+
+.list-group-item {
+  color: white;
+}
+
+.laptopContainer {
+  margin: 0 auto 30px;
+  display:flex;
+  flex-direction: column;
+}
+
+.laptop-large {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.title {
+  color:white;
+  text-align: center;
+  font-family:'Roboto', sans-serif; 
+  width: 50%;
+  margin: 20px auto 30px;
+  /* display:flex; */
+
+
+}
+/* HEADER LAYOUT */
+.logo {
+  width: 20%;
+  /* margin-top: 20px; */
+}
+
+
+
+navbar {
+  justify-content: center;
+  align-content: center;
+  text-align: right;
+  /* padding: 8px 40px 8px 20px; */
+  padding: 40px 40px 0px 0px;
+  font-family:'Roboto', sans-serif; 
+  text-decoration: none;
+}
+
+navbar {
+  height: 100px;
+}
+
+navbar ul {
+  display: flex;
+}
+
+navbar li {
+  list-style-type: None;
+  text-align: center;
+  flex: 1;
+  font-size: 16 px;
+  padding: 8px 40px 8px 20px;
+}
+.kast{
+  color: white;
+  border: 1px solid white;
+  background-color: transparent; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px ;
+}
+.openkast{
+  background-color: #fe9000;
+  padding: 0px 16px;
+  color: white;
+  font-family:'Roboto', sans-serif; 
+  font-size: 18px;
+  padding: 5px 30px;
+  font-weight: 500;
+  border: none;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+/* MAIN LAYOUT*/
+
+.middle {
+  padding: 60px 20px;
+
+}
+
+.sale {
+  width: 50%;
+  word-wrap: normal;
+  font-size: 40px;
+  margin: 0 auto 30px;
+  padding: 25px;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  line-height: 54px;
+}
+.middle-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.iconGrouping {
+  width: 200px;
+
+}
+main,
+section {
+  background-color: white;
+  /*bottom: 00vh;*/
+  border-top: 500px;
+}
+.icons {
+  width: 100px;
+  padding: 30px;
+}
+.baseMembership {
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.learn {
+  color: #fe9000;
+  text-align: center;
+  margin: 20px auto 0;
+  font-family:'Roboto', sans-serif; 
+  font-size: 14px;
+  
+  
+}
+.iconText{
+  font-size: 12px;
+  text-align: center;
+
+}
+
+/*Next Section*/
+article {
+  background-image: URL(./assets/green-bg.jpg);
+ }
